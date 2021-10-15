@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-size: 0.9em;
+}
+.background-header{
+    box-shadow: 2px 1px 5px 1px rgb(134, 134, 134);
+    background: rgb(164,219,252);
+    background: linear-gradient(94deg, rgba(164,219,252,1) 0%, rgb(247, 237, 237) 94%);
+    transition: all 300ms ease-in;
+    font-size: 1em;
+}
+
+.logo {
+    padding: 20px 0;
+    
+}
+
+.logo a {
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: bold;
+    font-size: 1.8em;
+    color: rgb(5, 5, 5);   
+    color: black; 
+}
+
+nav {
+    /* color: black; */
+    display: flex;
+    justify-content: space-between;
+}
+nav .mainMenu {
+    display: flex;
+    list-style: none;
+}
+nav .mainMenu li a {
+    display: inline-block;
+    padding: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 0.9em;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav .mainMenu li a:hover {
+    color: rgb(119, 116, 116);
+}
+
+nav .openMenu {
+    font-size: 2rem;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+nav .mainMenu .closeMenu , .icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+main {
+    background-color: rgb(248, 248, 248);
+}
+
+.mainMenu li:last-child {
+    padding-top: 5px;
+}
+
+
+.container-tugas {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.tugas {
+    padding-top: 150px;
+    margin: 0 10px;
+}
+
+.continer-user {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.user-profil {
+    padding: 0 10px;
+}
+
+.user-profil img {
+    border-radius: 100px;
+    border: 3px solid rgb(163, 165, 163);
+    padding: 3px;
+}
+
+.username p {
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+    line-height: 25px;
+    padding: 0 10px;
+    font-size: 0.9em;
+}
+
+.title{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgb(165, 165, 165);
+    color: rgb(250, 0, 0);
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    color: green;
+    padding-bottom: 15px;
+}
+
+.date p {
+    font-family: 'Patrick Hand', cursive;
+}
+
+.line1 {
+    background-color: rgb(165, 165, 165);
+    max-width: 100%;
+    height: 1px;
+    margin-bottom: 3px;
+}
+
+.line2 {
+    background-color: rgb(165, 165, 165);
+    max-width: 100%;
+    height: 1px;
+}
+
+.soal {
+    padding: 30px 20px;
+    color: rgb(63, 63, 63);
+    line-height: 30px;
+}
+
+.soal p {
+    text-align: center;
+    padding-top: 20px;
+    word-spacing: 3px;
+}
+
+.soal li {
+    word-spacing: 2px;
+}
+
+.jawab {
+    padding: 20px
+}
+
+.jawaban {
+    padding: 0 0 200px 20px;
+}
+
+.jawaban li {
+    margin: 80px 0 30px 0;
+    word-spacing: 2px;
+}
+
+.gambar {
+    display: flex;
+    justify-content: center;
+}
+
+.gambar img {
+    max-width: 100%;
+    box-shadow: 2px 1px 5px 1px rgb(134, 134, 134);
+}
+
+footer {
+    background-color: #404449;
+}
+
+.container-footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-bar {
+    max-width: 600px;
+    margin: 70px 10px;
+}
+
+.about-me {
+    margin: 70px 10px;
+}
+
+.about-me h3 {
+    padding-bottom: 20px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2.5em;
+    color: #f8f9fa;
+}
+
+.about-me p {
+    color: #f8f9fa;
+    line-height: 25px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2;
+}
+
+.about-web {
+    margin: 0 10px 70px 10px;
+}
+
+.about-web h3 {
+    padding: 0 10px 20px 0;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2.5em;
+    line-height: 120%;
+    color: #f8f9fa;
+}
+
+.about-web p {
+    color: #f8f9fa;
+    line-height: 25px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2;
+}
+
+.contact {
+    margin: 0 10px 0 10px;
+}
+
+.contact h3 {
+    padding: 0 10px 20px 0;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2.5em;
+    color: #f8f9fa;
+}
+
+.contact p {
+    padding-bottom: 10px;
+    color: #f8f9fa;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2;
+}
+
+
+.medsos {
+    display: flex;
+    padding: 20px 0 70px 0;
+}
+
+.medsos ul {
+    display: flex;
+    list-style: none;
+}
+
+.medsos li {
+    padding-right: 20px;
+}
+
+.fa-facebook-square, .fa-instagram, .fa-telegram {
+    color: white;
+    font-size: 25px;
+}
+
+.fa-facebook-square:hover, .fa-instagram:hover, .fa-telegram:hover {
+    color: rgb(179, 179, 179);
+}
+
+.copyright {
+    padding: 10px;
+    border-top: 1px solid rgb(167, 167, 167);
+}
+
+.copyright p {
+    color: rgb(184, 184, 184);
+    text-align: center;
+}
+
+
+/* figure img {
+    opacity: 0.8;
+}
+
+figure img:hover {
+    opacity: 1;
+} */
